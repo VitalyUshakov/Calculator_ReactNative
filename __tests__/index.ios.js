@@ -12,11 +12,3 @@ it('renders correctly', () => {
     ).toJSON();
   expect(tree).toMatchSnapshot();
 });
-
-
-test('Set 1 And 2 and +', () => {
-  const solve = new App();
-  expect(solve._solveExpression(2,3,'+')).toBe(5);
-});
-
-

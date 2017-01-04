@@ -232,7 +232,7 @@ export default class App extends Component {
             case 'string': 
                 switch (input) {
                   case '.': 
-                    this._handleNumberInput(this._addDot());
+                    this._handleNumberInput(this._addDot(this.state.resultValue));
                     break; 
                   
                   case '=':
@@ -315,8 +315,8 @@ export default class App extends Component {
       return result;
     }
 
-    _addDot(){
-      var inputValue = String(this.state.resultValue)
+    _addDot(input){
+      var inputValue = String(input)
       if (-1 < inputValue.indexOf('.')){
             return "";
         }else{
