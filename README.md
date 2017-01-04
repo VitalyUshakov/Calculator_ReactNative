@@ -42,7 +42,7 @@ $ react-native run-ios
 
 ## Testing
 
-1. For execute the unit-Tests, run:
+For execute the unit-Tests, run:
 ```
 $ npm test
 ```
