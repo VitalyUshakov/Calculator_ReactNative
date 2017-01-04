@@ -28,11 +28,14 @@ $ brew install watchman
 ```
 $ npm install
 ```
-8. To run an application:
+
+## Running
+
+1. To run an application:
 ```
 $ npm start
 ```
-Run another Terminal and:
+2. Run another Terminal and:
 ```
 $ react-native run-ios
 ```
