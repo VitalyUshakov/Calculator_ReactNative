@@ -31,11 +31,11 @@ $ npm install
 
 ## Running
 
-1. To run an application:
+ To run an application:
 ```
 $ npm start
 ```
-2. Run another Terminal and:
+ Run another Terminal and:
 ```
 $ react-native run-ios
 ```
