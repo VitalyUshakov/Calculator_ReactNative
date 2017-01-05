@@ -300,7 +300,6 @@ export default class App extends Component {
           result = parseFloat(firstNumber) - parseFloat(secondNumber);
           break;
         case '*':
-          alert("* = ")
           result = parseFloat(firstNumber) * parseFloat(secondNumber);
           break;
          case '/':
